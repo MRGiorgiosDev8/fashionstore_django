@@ -1,0 +1,35 @@
+body {
+    background: url("../vendor/img/shopvintagefashion14.png") no-repeat center top fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    padding-top: 56px;
+}
+
+#start-purchase-btn {
+    background-color: #272c31;
+    border-color: rgb(255, 255, 255);
+    float: left;
+    border-radius: 4px;
+    margin-top: 370px;
+    opacity: 0.90;
+}
+
+#start-purchase-link {
+    text-decoration: none;
+    color: #00410c;
+}
+.container p{
+    background: rgb(255, 255, 255);
+    padding: 20px;
+    border: 1px solid #FFF;
+    border-radius: 20px;
+    margin-bottom: 60px;
+    text-align: center;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+}
+.container .col-lg-6{
+    margin-top: 20px;
+}

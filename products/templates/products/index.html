@@ -1,0 +1,25 @@
+{% extends 'products/base.html' %}
+{% load static %}
+{% block title %} {{ title }} {% endblock %}
+
+{% block css %}
+<link href="{% static 'css/index.css' %}" rel="stylesheet">
+{% endblock %}
+
+{% block content %}
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <img src="{% static 'vendor/img/icon.png' %}" alt="" width="300">
+                <button id="start-purchase-btn" type="button" class="btn btn-lg">
+                    <a id="start-purchase-link" style="color: white; font-weight:bold;" href="{% url 'products' %}">
+                        Start shopping
+                    </a>
+                </button>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}
+
