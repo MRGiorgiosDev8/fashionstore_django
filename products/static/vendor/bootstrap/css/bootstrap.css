@@ -5498,6 +5498,7 @@ a.badge-dark:focus, a.badge-dark.focus {
   flex-direction: column;
   padding-left: 0;
   margin-bottom: 0;
+  margin-top: 50px;
   border-radius: 11px;
 }
 
