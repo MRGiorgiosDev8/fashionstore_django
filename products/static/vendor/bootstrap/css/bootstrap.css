@@ -2905,14 +2905,15 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-success {
-  color: #28a745;
-  border-color: #28a745;
+  color: #272c31;
+  border-color: gray;
+  transition: all ease-in-out 0.3s;
 }
 
 .btn-outline-success:hover {
   color: #fff;
-  background-color: #28a745;
-  border-color: #28a745;
+  background-color: #6fbea3;
+  border-color: white;
 }
 
 .btn-outline-success:focus, .btn-outline-success.focus {
