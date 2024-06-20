@@ -4776,7 +4776,7 @@ input[type="button"].btn-block {
 }
 
 .card-title a:hover {
-  color: #272c31;
+  color: white;
 }
 
 .card-subtitle {
@@ -5023,6 +5023,7 @@ input[type="button"].btn-block {
 .page-link {
   position: relative;
   display: block;
+  border-radius: 50px;
   padding: 0.5rem 0.75rem;
   margin-left: -1px;
   line-height: 1.25;
@@ -5059,8 +5060,7 @@ input[type="button"].btn-block {
 .page-item.active .page-link {
   z-index: 3;
   color: #fff;
-  background-color: #007bff;
-  border-color: #007bff;
+  border-radius: 7px;
 }
 
 .page-item.disabled .page-link {

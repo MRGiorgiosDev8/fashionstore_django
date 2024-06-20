@@ -5,17 +5,17 @@ a{
     color: #272c31;
 }
 a:hover{
-    color: #6fbea3; 
+    color: #7bbea6; 
     text-decoration: none;
 }
 .page-link{
-    color: #01b50d; 
+    color: #272c31; 
 }
 .page-link:hover{
-    color: #008819; 
+    color: #7bbea6; 
 }
 .page-item.active .page-link{
-    background: #28a745;
+    background: #7bbea6;
 }
 .list-group-item{    
     text-transform: uppercase;
