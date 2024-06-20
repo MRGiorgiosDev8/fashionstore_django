@@ -1,9 +1,4 @@
-!
- * Bootstrap v4.5.3 (https://getbootstrap.com/)
- * Copyright 2011-2020 The Bootstrap Authors
- * Copyright 2011-2020 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
- */
+
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -80,7 +75,9 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
   margin-top: 0;
-  margin-bottom: 1rem;
+  margin: 0px;
+  margin-left: 23px;
+  display: inline-block;
 }
 
 abbr[title],
@@ -2906,7 +2903,7 @@ fieldset:disabled a.btn {
 
 .btn-outline-success {
   color: #272c31;
-  border-color: gray;
+  border-color: rgba(162, 161, 161, 0.787);
   transition: all ease-in-out 0.3s;
 }
 
@@ -4810,7 +4807,7 @@ input[type="button"].btn-block {
 .card-footer {
   padding: 0.75rem 1.25rem;
   background-color: rgba(0, 0, 0, 0.03);
-  border-top: 1px solid rgba(0, 0, 0, 0.125);
+  border-top: 1px solid rgba(70, 69, 69, 0.125);
 }
 
 .card-footer:last-child {

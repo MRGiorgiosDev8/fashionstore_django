@@ -24,14 +24,17 @@ a:hover{
     margin: 24px 0;
 }
 .title{
-    color: #28a745;
+    color: #272c31;
+}
+h4 {
+    color: rgba(107, 107, 107, 0.67);
 }
 .big{
     width: 100%;
 	margin-top: 10px;
 }
 .price{
-    color: orange;
+    color: #272c31;
     margin: 20px 0;
 }
 .basket{
