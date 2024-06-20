@@ -2,10 +2,11 @@ body {
     padding-top: 56px;
 }
 a{
-    color: #008819; 
+    color: #272c31;
 }
 a:hover{
     color: #01b50d; 
+    text-decoration: none;
 }
 .page-link{
     color: #01b50d; 

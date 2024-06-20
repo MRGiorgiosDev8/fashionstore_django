@@ -4747,6 +4747,7 @@ input[type="button"].btn-block {
   border-top-right-radius: calc(0.25rem - 1px);
 }
 
+
 .card > .list-group:last-child {
   border-bottom-width: 0;
   border-bottom-right-radius: calc(0.25rem - 1px);
@@ -5497,7 +5498,7 @@ a.badge-dark:focus, a.badge-dark.focus {
   flex-direction: column;
   padding-left: 0;
   margin-bottom: 0;
-  border-radius: 0.25rem;
+  border-radius: 11px;
 }
 
 .list-group-item-action {
