@@ -4340,7 +4340,7 @@ input[type="button"].btn-block {
   padding-top: 0.3125rem;
   padding-bottom: 0.3125rem;
   margin-right: 1rem;
-  font-size: 1.25rem;
+  font-size: 1.7rem;
   line-height: inherit;
   white-space: nowrap;
 }
@@ -4382,6 +4382,8 @@ input[type="button"].btn-block {
   flex-grow: 1;
   -ms-flex-align: center;
   align-items: center;
+  overflow: hidden;
+  height: 60px;
 }
 
 .navbar-toggler {
@@ -5027,6 +5029,7 @@ input[type="button"].btn-block {
   color: #007bff;
   background-color: #fff;
   border: 1px solid #dee2e6;
+  margin: 3px;
 }
 
 .page-link:hover {
