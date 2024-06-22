@@ -66,7 +66,7 @@ body {
     line-height: 1.5;
     color: #212529;
     text-align: left;
-    background-color: #fff;
+    background-color: #ffffff;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -2545,12 +2545,13 @@ fieldset:disabled a.btn {
     color: #fff;
     background-color: #32373d;
     border-color: #32373d;
+    transition: all ease-in-out 0.3s;
 }
 
 .btn-primary:hover {
     color: #fff;
-    background-color: #32373d;
-    border-color: #32373d;
+    background-color: #1d4bb0;
+    border-color: #1d4bb0;
 }
 
 .btn-primary:focus, .btn-primary.focus {
@@ -5301,8 +5302,15 @@ a.badge-dark:focus, a.badge-dark.focus {
 
 .alert-info {
     color: #0c5460;
-    background-color: #d1ecf1;
+    background-color: pink;
     border-color: #bee5eb;
+    opacity: 0.96;
+    background: url("../vendor/img/kamiflo.png") no-repeat center top fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    /* padding-top: 56px; */
 }
 
 .alert-info hr {
@@ -6832,7 +6840,7 @@ button.bg-dark:focus {
 }
 
 .rounded-lg {
-    border-radius: 0.3rem !important;
+    border-radius: 0.7rem !important;
 }
 
 .rounded-circle {
