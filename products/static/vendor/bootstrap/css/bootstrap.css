@@ -4350,6 +4350,12 @@ input[type="button"].btn-block {
 .navbar-brand img {
   border: none;
   vertical-align: -14px;
+  scale: 1;
+  transition: all ease-in-out 0.3s;
+}
+
+.navbar-brand img:hover {
+  scale: 1.1;
 }
 
 .navbar-brand:hover, .navbar-brand:focus {
@@ -5556,6 +5562,22 @@ a.badge-dark:focus, a.badge-dark.focus {
   background-color: #fff;
   border: 1px solid rgba(0, 0, 0, 0.125);
   transition: all ease-in-out 0.3s;
+}
+
+.list-group-item:not(:first-child)::after {
+  content: ''; 
+  position: absolute;
+  right: 10px; 
+  top: 50%; 
+  transform: translateY(-50%); 
+  font-size: 1.5rem; 
+  opacity: 0; 
+  transition: opacity 0.3s ease-in-out; 
+}
+
+.list-group-item:not(:first-child):hover::after {
+  content: '\273F'; 
+  opacity: 1; 
 }
 
 .list-group-item:first-child {
