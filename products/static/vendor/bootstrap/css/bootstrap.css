@@ -4347,6 +4347,11 @@ input[type="button"].btn-block {
   white-space: nowrap;
 }
 
+.navbar-brand img {
+  border: none;
+  vertical-align: -14px;
+}
+
 .navbar-brand:hover, .navbar-brand:focus {
   text-decoration: none;
 }
