@@ -12,10 +12,11 @@ a:hover{
     color: #272c31; 
 }
 .page-link:hover{
-    color: #7bbea6; 
+    color: #547ba2; 
 }
 .page-item.active .page-link{
-    background: #7bbea6;
+    background: #547ba2;
+    opacity: 0.8;
 }
 .list-group-item{    
     text-transform: uppercase;

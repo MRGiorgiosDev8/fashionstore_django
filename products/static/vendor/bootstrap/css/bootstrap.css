@@ -2904,12 +2904,14 @@ fieldset:disabled a.btn {
 .btn-outline-success {
   color: #272c31;
   border-color: rgba(162, 161, 161, 0.787);
+  opacity: 1;
   transition: all ease-in-out 0.3s;
 }
 
 .btn-outline-success:hover {
   color: #fff;
-  background-color: #6fbea3;
+  background-color: #385f88;
+  opacity: 0.7;
   border-color: white;
 }
 
@@ -5535,6 +5537,16 @@ a.badge-dark:focus, a.badge-dark.focus {
   border-radius: 11px;
   border: 3px solid white;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15), 0 1px 4px rgba(0, 0, 0, 0.12);
+}
+
+.list-group a {
+  opacity: 1;
+  transition: all ease-in-out 0.3s;
+}
+
+.list-group a:hover {
+  color: #385f88;
+  opacity: 0.7;
 }
 
 .list-group-item-action {
