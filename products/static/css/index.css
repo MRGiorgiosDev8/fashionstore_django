@@ -14,13 +14,9 @@ body {
     border-radius: 20px;
     border: none;
     margin-top: 40px;
-    opacity: 0.8;
     position: relative;
     z-index: 1000;
     transition: all linear 0.3s;
-}
-#start-purchase-btn:hover {
-    opacity: 1;
 }
 #start-purchase-btn img {
     border: none;
