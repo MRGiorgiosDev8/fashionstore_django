@@ -475,13 +475,30 @@ mark,
   height: auto;
 }
 
+.murakami {
+  max-width: 100%;
+  max-height: 53px;
+  border: none;
+  opacity: 0.8;
+  margin: 0;
+  margin-left: 7px;
+  vertical-align: top;
+  transition: all ease-in-out 0.3s;
+}
+
+.murakami:hover{
+  opacity: 1;
+}
+
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
   border: 1px solid #dee2e6;
-  border-radius: 0.25rem;
+  border-radius: 50px;
   max-width: 100%;
+  margin-bottom: 20px;
   height: auto;
+  
 }
 
 .figure {
@@ -2171,6 +2188,10 @@ textarea.form-control {
   flex-wrap: wrap;
   margin-right: -5px;
   margin-left: -5px;
+  padding: 7px;
+  padding-bottom: 17px;
+  background-color: white;
+  opacity: 0.9;
 }
 
 .form-row > .col,
@@ -8289,6 +8310,8 @@ button.bg-dark:focus {
 .mb-3,
 .my-3 {
   margin-bottom: 1rem !important;
+  margin-top: 40px !important;
+
 }
 
 .ml-3,
