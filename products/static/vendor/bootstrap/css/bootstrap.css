@@ -2903,7 +2903,8 @@ fieldset:disabled a.btn {
 
 .btn-outline-success {
   color: #272c31;
-  border-color: rgba(162, 161, 161, 0.787);
+  border: 1px solid rgb(190, 190, 190);
+  border-radius: 6px;
   opacity: 1;
   transition: all ease-in-out 0.3s;
 }

@@ -26,9 +26,11 @@ a:hover{
 }
 .title{
     color: #272c31;
+    opacity: 0.9;
 }
 h4 {
-    color: rgba(107, 107, 107, 0.67);
+    color: rgb(107, 107, 107);
+    opacity: 0.77;
 }
 .big{
     width: 100%;
@@ -37,12 +39,30 @@ h4 {
 .price{
     color: #272c31;
     margin: 20px 0;
+    padding: 11px;
+    border: 1px solid rgb(190, 190, 190);
+    background-color: rgba(255, 255, 255, 0.918);
+    width: 220px;
+    max-width: auto;
+    border-radius: 11px;
+    opacity: 0.8;
 }
 .basket{
     margin: 0 0 40px;
+    margin-left: 6px;
+    border: 3px solid white;
+    border-radius: 6px;
 }
 .quantity{
     margin-bottom: 20px;
+    margin-left: 20px;
+}
+.info-product{
+    padding-bottom: 11px;
+    background-color: white;
+    border-radius: 11px;
+    border: 1px solid rgb(190, 190, 190);
+    opacity: 0.8;
 }
 .small{
     width: 26%;
