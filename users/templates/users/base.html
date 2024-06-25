@@ -40,7 +40,7 @@
                     </div>
                     <button id="back-shopping" type="button" class="btn btn-lg">
                     <a id="shopping"  href="{% url 'products' %}">
-                        <img src="{% static 'vendor/img/arrowshoping1.png' %}" alt="Start shopping">
+                        <img id="arrow-back-shopping" src="{% static 'vendor/img/arrowshoping1.png' %}" alt="Start shopping">
                     </a>
                     </button>
                 </div>
@@ -54,5 +54,6 @@
 <script src="{% static 'js/auth.js' %}"></script>
 <script src="{% static 'vendor/fontawesome/fontawesome-icons.js' %}" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+<script src="{% static 'js/animated-back-shopping.js' %}"></script>
 </body>
 </html>
