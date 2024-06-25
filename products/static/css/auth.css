@@ -485,12 +485,8 @@ mark,
 #back-shopping  {
     margin-top: 470px;
     margin-left: 40px;
-    opacity: 0.8;
-    transition: all ease-in-out 0.3s;
-}
-
-#back-shopping:hover {
-    opacity: 1;
+    z-index: 1000;
+    position: relative;
 }
 
 #back-shopping img {
@@ -10616,6 +10612,8 @@ a.text-dark:hover, a.text-dark:focus {
 html,
 body {
     height: 100%;
+    z-index: 1;
+    position: relative;
 }
 
 .container,
