@@ -1,6 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
     const arrowShopping = document.getElementById('arrow-shopping');
-
     gsap.set(arrowShopping, { x: 14 });
 
     const arrowAnimation = gsap.timeline({ repeat: -1, yoyo: true });
