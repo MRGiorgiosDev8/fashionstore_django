@@ -8314,6 +8314,9 @@ button.bg-dark:focus {
 .my-3 {
   margin-bottom: 1rem !important;
   margin-top: 40px !important;
+  padding: 7px;
+  border-radius: 7px;
+  background-color: white;
   opacity: 0.8;
 }
 
