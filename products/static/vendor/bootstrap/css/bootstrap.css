@@ -4778,6 +4778,21 @@ input[type="button"].btn-block {
   border-radius: 0.25rem;
 }
 
+.cardo {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15), 0 1px 4px rgba(0, 0, 0, 0.12);
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+}
+ 
 .card > hr {
   margin-right: 0;
   margin-left: 0;
@@ -5552,6 +5567,19 @@ a.badge-dark:focus, a.badge-dark.focus {
 }
 
 .list-group {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding-left: 0;
+  margin-bottom: 0;
+  margin-top: 60px;
+  border-radius: 11px;
+  border: 3px solid white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15), 0 1px 4px rgba(0, 0, 0, 0.12);
+}
+
+.listo-group {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-direction: column;
