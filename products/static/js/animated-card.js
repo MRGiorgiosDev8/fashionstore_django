@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function () {
     gsap.to(card, {
         y: 0,
         opacity: 1,
-        duration: 1.1,
+        duration: 1,
         ease: 'power1.inOut'
     });
 });
