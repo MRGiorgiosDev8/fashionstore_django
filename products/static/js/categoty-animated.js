@@ -1,8 +1,10 @@
 document.addEventListener('DOMContentLoaded', function () {
     const listGroup = document.querySelector('.list-group');
     const links = listGroup.querySelectorAll('a');
+    const pagination = document.querySelector('.pagination');
+    const pageLinks = pagination.querySelectorAll('a');
 
-    if (!sessionStorage.getItem('linkClicked')) {
+    if (!sessionStorage.getItem('linkClicked') && !sessionStorage.getItem('pageLinkClicked')) {
         gsap.set(listGroup, { y: -100, opacity: 0 });
 
         gsap.to(listGroup, {
@@ -19,7 +21,14 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     });
 
+    pageLinks.forEach(link => {
+        link.addEventListener('click', function () {
+            sessionStorage.setItem('pageLinkClicked', 'true');
+        });
+    });
+
     setTimeout(() => {
         sessionStorage.removeItem('linkClicked');
+        sessionStorage.removeItem('pageLinkClicked');
     }, 1000);
 });
