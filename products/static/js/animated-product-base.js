@@ -4,10 +4,10 @@ document.addEventListener('DOMContentLoaded', function () {
     let rotateAnimation;
 
     navbarBrand.addEventListener('mouseenter', function () {
-        gsap.set(murakamiImage, { rotation: 0 }); 
+        gsap.set(murakamiImage, { rotation: 0, opacity: 1 }); 
         rotateAnimation = gsap.to(murakamiImage, {
             rotation: -360 * 1000, 
-            duration: 300, 
+            duration: 300,
             ease: 'none', 
         });
     });
@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function () {
     navbarBrand.addEventListener('mouseleave', function () {
         if (rotateAnimation) {
             rotateAnimation.kill();
-            gsap.set(murakamiImage, { rotation: 0 }); 
+            gsap.set(murakamiImage, { rotation: 0, opacity: 0.87 }); 
         }
     });
 });
