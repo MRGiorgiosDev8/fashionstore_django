@@ -20,11 +20,11 @@
         <div class="col-lg-9">
             <div class="row">
                 <div class="col-lg-5">
-                    <img src="{{ product.image.url }}" alt="" class="big">
+                    <img id="bigImg" src="{{ product.image.url }}" alt="" class="big">
                     <br>
                     <div class="center">
                         {% for img in product.photo_set.all %}
-                        <img src="{{ img.add_photo.url }}" alt="" class="small">
+                        <img src="{{ img.add_photo.url }}" alt="" class="small" onclick="changeImage(this)">
                         {% endfor %}
                     </div>
                 </div>
