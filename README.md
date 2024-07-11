@@ -1,4 +1,4 @@
-# WFStore (World Fashion Store)
+# WFStore ("World Fashion Store")
 
 ## Содержание
 - [Описание](#описание)
