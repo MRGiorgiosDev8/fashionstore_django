@@ -95,3 +95,31 @@ WFStore - это Django проект, который представляет с
 `migrations/` — Папка для хранения миграций базы данных.
 
 `templates/` — Шаблоны, используемые приложением.
+
+## Запуск проекта
+
+1. Клонируйте репозиторий:
+
+    ```bash
+    git clone https://github.com/MRGiorgiosDev8/fashionstore_django.git
+    ```
+
+2. Перейдите в директорию проекта:
+
+    ```bash
+    cd fashionstore_django
+    ```   
+
+3. Установите зависимости из файла `requirements.txt`:
+
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+4. Запустите сервер разработки:
+
+    ```bash
+    python manage.py runserver
+    ```
+
+5. Откройте браузер и перейдите по адресу `http://127.0.0.1:8000/`, чтобы увидеть работающий проект.
