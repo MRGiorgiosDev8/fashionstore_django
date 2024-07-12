@@ -4378,11 +4378,6 @@ input[type="button"].btn-block {
   border: none;
   vertical-align: -14px;
   scale: 1;
-  transition: all ease-in-out 0.3s;
-}
-
-.navbar-brand img:hover {
-  scale: 1.27;
 }
 
 .navbar-brand:hover, .navbar-brand:focus {
