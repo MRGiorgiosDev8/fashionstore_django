@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
         gsap.to(listGroup, {
             y: 0,
-            opacity: 1,
+            opacity: 0.9,
             duration: 1.5,
             ease: 'power2.out'
         });
