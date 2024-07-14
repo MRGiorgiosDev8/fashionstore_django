@@ -29,7 +29,7 @@
                     </div>
                 </div>
                 <div class="col-lg-7">
-                    <h1 class="title">{{ product.name }}</h1>
+                    <h1 style="margin-top: 11px;" class="title">{{ product.name }}</h1>
                     <h4>{{ product.short_description }}</h4>
                     <h2 class="price">{{ product.price }} руб.</h2>
                     <button type="button" class="btn-outline-success basket" onclick="location.href='{% url 'basket_add' product.id %}'">
