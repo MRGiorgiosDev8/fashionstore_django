@@ -4418,7 +4418,7 @@ input[type="button"].btn-block {
   -ms-flex-align: center;
   align-items: center;
   overflow: hidden;
-  height: 60px;
+  max-height: 70px;
 }
 
 .navbar-toggler {
